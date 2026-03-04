@@ -1,7 +1,3 @@
-export function Footer() {
-  return `
-    <p class="read-the-docs">
-      Click on the Vite and TypeScript logos to learn more
-    </p>
-  `;
+export function Footer(): string {
+  return `<footer class="game-footer">Wordle but Pain &mdash; choose your difficulty above</footer>`;
 }
